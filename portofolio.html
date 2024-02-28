@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio</title>
+    <style>
+        body {
+            background-image: url(portof.jpeg);background-size: cover;
+            background-color: rgba(255, 255, 255, 0.7); /* Adjust the alpha value for opacity */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+        }
+        header {
+            color: #131212;
+        }
+        img{
+            width: 300px;height: 300px;margin: 2px;border-radius: 300px;padding: 0%;
+        }
+        section {
+        }
+        h1, h2, h3, p {
+            color: #080808;
+        }
+        h1{
+            text-align: center;
+        }
+        a:hover {
+            text-decoration-line: underline;
+        }
+        li a {
+            size: 10px;
+            display: contents;
+            padding: 0;
+            margin: 0%;
+          }
+          nav ul {
+            list-style: none;
+            text-align: center;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        main{
+            margin: 10px;
+            border: 10px;
+            padding: 50px;
+        }
+    </style>
+    <script>
+        function displayAlert() {
+            alert("Form submitted successfully!");
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1 style="color: rgb(95, 54, 5); font-style: italic;" >Hi Guys! It's me KaSai</h1>
+        <p style="text-align: center;"> Student||Developer||Web Designer</p>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <img src="https://lh3.googleusercontent.com/a/ACg8ocL-yd8sFq9qE85MHJfslrYatK8RP56JlzjzcFBb45zvlOY=s432-c-no" alt="mypic"id="img"><br>
+            <a href="#home"></a>
+        </section>
+        <div style="color: rgb(14, 15, 15);">
+        <section id="about">
+            <h1 style="text-align: left;">About</h1>
+                <ul type="square">
+               <li> <h2>Background</h2></li>
+                <p style="color: rgb(8, 8, 8);">Appasam kiri...kiri Sainath, born and raised in the  city of tirupati, comes from a hindu cultural background. His father, eswar, is a farmer with a keen interest in agriculture, while his mother, mary, is an home maker, infusing creativity into the family's daily life.</p>
+        
+               <li><h2>Schooling</h2></li>
+                <p>Sarah attended sri chaitanya High School, where her curiosity and passion for science and technology blossomed. Her academic excellence earned her a scholarship to pursue a Bachelor's degree in Computer Science at the renowned Mohan babu University. During her college years, he actively participated in coding competitions and collaborative projects, showcasing his dedication to the field.</p>
+               <li><h2>Interests</h2></li>
+                <p>Beyond the tech realm, Sai has a deep interest in community engagement. She volunteers at local environmental programs, aiming to inspire the next generation of innovators. An avid traveler, he embraces diverse cultures, fostering a global perspective. In his free time, Sai enjoys photography, capturing moments that reflect the beauty of both nature and urban landscapes.</p>
+        
+               <li> <h2>Future Aspirations</h2></li>
+                <p>Sai envisions a future where technology positively impacts society. He aspires to merge his technical expertise with his passion for community service, working towards solutions that bridge the digital divide and empower underprivileged communities.</p>
+        
+                </ul>
+            </section>
+        </div>
+        </section>
+        <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>Python</li>
+        </ul>
+        </section>
+        <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="portofolio.html" target="_blank">Project 1 - Portfolio Website</a></li>
+            <li><a href="movie_review.html" target="_blank">Project 2 - movie review website</a></li>
+        </ul>
+        </section>
+        <section id="services">
+            <h2>Services</h2>
+            <ol>
+                <li>App developer</li>
+                <li>Website Designer</li>
+                <li>Content creator</li>
+            </ol>
+        </section>
+        <div>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p style="color: rgb(5, 15, 15);"><i><b>Contact information goes here.</b></i></p>
+            <form action="portofolio.html" target="_self" onsubmit="displayAlert()">
+                <label for="name">Name :</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="tel">Mobile.No. :</label>
+                <input type="tel" id="Mobile.No." name="Mobile.No."><br><br>
+                <label for="message">Message :</label>
+                <textarea id="message" name="message"></textarea><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        </section>
+        <footer>
+            <p style="color: rgb(240, 77, 18);">Feel free to reach out to me via email at <a href="mailto:saimail@gmail.com">saimail@gmail.com</a>. You can also find me on <a href="https://github.com/Saireddy230" target="_blank">GitHub</a> and <a href="https://www.linkedin.com/in/sai-reddy-203sai/" target="_blank">LinkedIn</a>.</p>
+        </footer>
+</body>
+</html>
